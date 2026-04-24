@@ -50,6 +50,12 @@ migrate_working_dir/
 /install_output.txt
 /test_output*.txt
 /flutter_*.log
+/ANALYSIS_SUMMARY.md
+/APP_ANALYSIS.md
+/ARCHITECTURE_DIAGRAM.md
+/ENHANCEMENT_PLAN.md
+/IMPLEMENTATION_PLAN.md
+/UPDATED_ANALYSIS.md
 
 # Symbolication related
 app.*.symbols
