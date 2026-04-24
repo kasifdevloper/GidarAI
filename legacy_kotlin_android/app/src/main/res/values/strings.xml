@@ -1,0 +1,174 @@
+<resources>
+    <string name="app_name">Gidar AI</string>
+    
+    <!-- General -->
+    <string name="back">Back</string>
+    <string name="menu">Menu</string>
+    <string name="save_changes">Save Changes</string>
+    <string name="cancel">Cancel</string>
+    <string name="ok">OK</string>
+    <string name="error">Error</string>
+    <string name="success">Success</string>
+    <string name="warning">Warning</string>
+    <string name="info">Info</string>
+    
+    <!-- Home Screen -->
+    <string name="gidar_ai">Gidar AI</string>
+    <string name="powered_by_gidar_ai_pro">POWERED BY GIDAR AI PRO</string>
+    <string name="select_ai_model">Select AI Model</string>
+    <string name="profile">Profile</string>
+    
+    <!-- Suggestions -->
+    <string name="explain_quantum_computing">Explain quantum computing</string>
+    <string name="simplified_for_a_beginner">Simplified for a beginner</string>
+    <string name="write_a_python_script">Write a Python script</string>
+    <string name="automation_and_data_parsing">Automation and data parsing</string>
+    <string name="plan_a_trip_to_goa">Plan a trip to Goa</string>
+    <string name="beaches_and_hidden_gems">Beaches and hidden gems</string>
+    <string name="summarize_this_text">Summarize this text</string>
+    <string name="extract_key_bullet_points">Extract key bullet points</string>
+    
+    <!-- Chat Screen -->
+    <string name="chat">Chat</string>
+    <string name="message_gidar_ai">Message Gidar AI…</string>
+    <string name="attach">Attach</string>
+    <string name="send">Send</string>
+    <string name="ai_action">AI Action</string>
+    <string name="typing">Typing</string>
+    <string name="gidar_ai_label">GIDAR AI</string>
+    <string name="user_label">You</string>
+    <string name="copy_message">Copy</string>
+    <string name="message_copied">Message copied to clipboard</string>
+    <string name="code_block">Code</string>
+    <string name="run_code">Run</string>
+    <string name="copy_code">Copy</string>
+    <string name="code_copied">Code copied to clipboard</string>
+    
+    <!-- Settings Screen -->
+    <string name="settings">Settings</string>
+    <string name="manage_your_workspace_configuration">Manage your workspace configuration and preferences.</string>
+    <string name="account">ACCOUNT</string>
+    <string name="api_key">API Key</string>
+    <string name="api_key_description">Used for authentication with external AI providers.</string>
+    <string name="model">MODEL</string>
+    <string name="active">Active</string>
+    <string name="add_model">+ Add Model</string>
+    <string name="system_prompt">SYSTEM PROMPT</string>
+    <string name="auto_saved_2m_ago">Auto-saved 2m ago</string>
+    <string name="appearance">APPEARANCE</string>
+    <string name="accent_color">Accent Color</string>
+    <string name="chat_management">CHAT MANAGEMENT</string>
+    <string name="clear_all_chats_description">Permanently delete your current session history across all devices.</string>
+    <string name="clear_all_chats">Clear all chats</string>
+    <string name="data_privacy">DATA PRIVACY</string>
+    <string name="clear_all_data_description">Wipe all cached files, models, and personal configuration data.</string>
+    <string name="clear_all_data">Clear all data</string>
+    
+    <!-- Sidebar -->
+    <string name="premium_user">Premium User</string>
+    <string name="gidar_ai_pro">Gidar AI Pro</string>
+    <string name="new_chat">NEW CHAT</string>
+    <string name="today">TODAY</string>
+    <string name="yesterday">YESTERDAY</string>
+    <string name="last_30_days">LAST 30 DAYS</string>
+    <string name="older">OLDER</string>
+    <string name="archived_conversations">Archived Conversations</string>
+    <string name="version">v2.4.0</string>
+    
+    <!-- Slash Commands -->
+    <string name="new_chat_command">/new</string>
+    <string name="new_chat_command_description">New chat</string>
+    <string name="clear_command">/clear</string>
+    <string name="clear_command_description">Clear current chat</string>
+    <string name="model_command">/model</string>
+    <string name="model_command_description">Model picker</string>
+    <string name="settings_command">/settings</string>
+    <string name="settings_command_description">Settings</string>
+    <string name="copy_command">/copy</string>
+    <string name="copy_command_description">Copy last AI message</string>
+    <string name="export_command">/export</string>
+    <string name="export_command_description">Export chat PDF</string>
+    <string name="help_command">/help</string>
+    <string name="help_command_description">Commands list</string>
+    
+    <!-- Code Sandbox -->
+    <string name="code_sandbox">Code Sandbox</string>
+    <string name="code">Code</string>
+    <string name="output">Output</string>
+    <string name="console">Console</string>
+    <string name="run">Run</string>
+    <string name="clear">Clear</string>
+    
+    <!-- HTML Preview -->
+    <string name="html_preview">HTML Preview</string>
+    <string name="share">Share</string>
+    <string name="download_html">Download .html</string>
+    <string name="saved_to">Saved to %s</string>
+    <string name="error_saving_file">Error saving file: %s</string>
+    
+    <!-- PDF Export -->
+    <string name="chat_export">Chat Export</string>
+    <string name="exported_on">Exported on %s</string>
+    <string name="you">You</string>
+    <string name="gidar_ai_assistant">Gidar AI</string>
+    
+    <!-- Toast Messages -->
+    <string name="api_key_missing">API Key missing! Please set it in Settings.</string>
+    <string name="set_api_key_in_settings">Set API Key in Settings to chat.</string>
+    <string name="network_error">Network error or API failure</string>
+    <string name="api_error">API Error: %s</string>
+    <string name="server_error">Server error: %s</string>
+    <string name="rate_limit_exceeded">Rate limit exceeded. Please wait a moment and try again.</string>
+    <string name="invalid_api_key">Invalid API key. Please check your settings.</string>
+    <string name="no_internet_connection">No internet connection. Please check your network settings.</string>
+    
+    <!-- Models -->
+    <string name="gpt_4o_mini">GPT-4o Mini</string>
+    <string name="gpt_4o">GPT-4o</string>
+    <string name="claude_3_opus">Claude 3 Opus</string>
+    <string name="claude_3_5_sonnet">Claude 3.5 Sonnet</string>
+    <string name="llama_3_70b">Llama 3 70B</string>
+    
+    <!-- Model IDs -->
+    <string name="gpt_4o_mini_id">openai/gpt-4o-mini</string>
+    <string name="gpt_4o_id">openai/gpt-4o</string>
+    <string name="claude_3_opus_id">anthropic/claude-3-opus</string>
+    <string name="claude_3_5_sonnet_id">anthropic/claude-3.5-sonnet</string>
+    <string name="llama_3_70b_id">meta-llama/llama-3-70b-instruct</string>
+    
+    <!-- Themes -->
+    <string name="theme_original">ORIGINAL</string>
+    <string name="theme_deep_ocean">DEEP_OCEAN</string>
+    <string name="theme_midnight_forest">MIDNIGHT_FOREST</string>
+    <string name="theme_sunset_glow">SUNSET_GLOW</string>
+    <string name="theme_neon_cyberpunk">NEON_CYBERPUNK</string>
+    <string name="theme_lavender_mist">LAVENDER_MIST</string>
+    <string name="theme_paper_ink">PAPER_INK</string>
+    
+    <!-- System Prompt -->
+    <string name="default_system_prompt">You are Gidar AI, a helpful and knowledgeable assistant.</string>
+    
+    <!-- API -->
+    <string name="openrouter_base_url">https://openrouter.ai/api/v1/</string>
+    <string name="http_referer">https://gidar.ai</string>
+    <string name="x_title">Gidar AI</string>
+    
+    <!-- Database -->
+    <string name="database_name">gidar_ai_db</string>
+    
+    <!-- Secure Storage -->
+    <string name="secure_prefs">secure_prefs</string>
+    <string name="api_key_pref">api_key</string>
+    
+    <!-- DataStore -->
+    <string name="settings_datastore">settings</string>
+    <string name="selected_model_id">selected_model_id</string>
+    <string name="selected_model_name">selected_model_name</string>
+    <string name="system_prompt_pref">system_prompt</string>
+    <string name="app_theme_pref">app_theme</string>
+    <string name="custom_models_pref">custom_models</string>
+    
+    <!-- Search -->
+    <string name="search_chats">Search chats...</string>
+    <string name="search">Search</string>
+</resources>

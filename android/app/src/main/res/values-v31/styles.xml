@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SplashLight" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#F4F6FB</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo_android12_bitmap</item>
+        <item name="android:windowBackground">@drawable/splash_light</item>
+        <item name="postSplashScreenTheme">@style/NormalThemeLight</item>
+        <item name="android:statusBarColor">#F4F6FB</item>
+        <item name="android:navigationBarColor">#F4F6FB</item>
+    </style>
+
+    <style name="SplashDark" parent="Theme.SplashScreen">
+        <item name="windowSplashScreenBackground">#0F1115</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/splash_logo_android12_bitmap</item>
+        <item name="android:windowBackground">@drawable/splash_dark</item>
+        <item name="postSplashScreenTheme">@style/NormalThemeDark</item>
+        <item name="android:statusBarColor">#0F1115</item>
+        <item name="android:navigationBarColor">#0F1115</item>
+    </style>
+
+    <style name="LaunchTheme" parent="@style/SplashLight">
+        <item name="postSplashScreenTheme">@style/NormalTheme</item>
+    </style>
+
+    <style name="LaunchThemeLight" parent="@style/SplashLight">
+    </style>
+
+    <style name="LaunchThemeDark" parent="@style/SplashDark">
+    </style>
+
+    <style name="NormalTheme" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">#F4F6FB</item>
+        <item name="android:statusBarColor">#F4F6FB</item>
+        <item name="android:navigationBarColor">#F4F6FB</item>
+    </style>
+
+    <style name="NormalThemeLight" parent="@android:style/Theme.Light.NoTitleBar">
+        <item name="android:windowBackground">#F4F6FB</item>
+        <item name="android:statusBarColor">#F4F6FB</item>
+        <item name="android:navigationBarColor">#F4F6FB</item>
+    </style>
+
+    <style name="NormalThemeDark" parent="@android:style/Theme.Black.NoTitleBar">
+        <item name="android:windowBackground">#0F1115</item>
+        <item name="android:statusBarColor">#0F1115</item>
+        <item name="android:navigationBarColor">#0F1115</item>
+    </style>
+</resources>

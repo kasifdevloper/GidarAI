@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Gidar AI Feedback
+    url: mailto:kasifdevloper@gmail.com?subject=Gidar%20AI%20Feedback
+    about: Send product feedback, suggestions, and general support questions by email.
+  - name: Gidar AI Bug Report
+    url: mailto:kasifdevloper@gmail.com?subject=Gidar%20AI%20Bug%20Report
+    about: Report bugs and reproduction details directly by email.
