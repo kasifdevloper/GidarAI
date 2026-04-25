@@ -118,6 +118,7 @@ class ChatCompletionRepository {
         onProviderSelected,
     void Function(String message)? onProviderNotice,
   }) async* {
+    final effectiveSystemPrompt = buildEffectiveSystemPrompt(systemPrompt);
     final chain = _providerRouter.resolveChain(
       routingMode: routingMode,
       selectedModel: model,
@@ -182,7 +183,7 @@ class ChatCompletionRepository {
           yield* remote.streamChatCompletion(
             apiKey: apiKey,
             model: selectedModel,
-            systemPrompt: systemPrompt,
+            systemPrompt: effectiveSystemPrompt,
             history: history,
           );
           return;

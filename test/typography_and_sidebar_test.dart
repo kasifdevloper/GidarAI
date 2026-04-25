@@ -540,7 +540,7 @@ Hello! How can I help you today?
   });
 
   testWidgets(
-    'student tutor notes render as colorful section cards and keep code panels',
+    'emoji numbered sections render on the standard markdown path and keep code panels',
     (tester) async {
       const tutorReply = '''
 🎯 1. DIRECT ANSWER
@@ -592,43 +592,25 @@ Apple ek badi tech company hai.
       );
       await tester.pumpAndSettle();
 
-      expect(
-        find.byKey(const ValueKey('student-tutor-card-direct-answer')),
-        findsOneWidget,
-      );
-      expect(
-        find.byKey(const ValueKey('student-tutor-card-simple-explanation')),
-        findsOneWidget,
-      );
-      expect(
-        find.byKey(const ValueKey('student-tutor-card-key-points')),
-        findsOneWidget,
-      );
-      expect(
-        find.byKey(const ValueKey('student-tutor-card-extra-section')),
-        findsOneWidget,
-      );
-      expect(
-        find.byKey(const ValueKey('student-tutor-card-example')),
-        findsOneWidget,
-      );
-      expect(
-        find.byKey(const ValueKey('student-tutor-card-summary')),
-        findsOneWidget,
-      );
-      expect(find.text('Direct Answer'), findsOneWidget);
-      expect(find.text('Simple Explanation'), findsOneWidget);
-      expect(find.text('Key Points'), findsOneWidget);
-      expect(find.text('Extra Section'), findsOneWidget);
-      expect(find.text('Example'), findsOneWidget);
-      expect(find.text('Summary'), findsOneWidget);
+      expect(find.textContaining('DIRECT ANSWER'), findsOneWidget);
+      expect(find.textContaining('SIMPLE EXPLANATION'), findsOneWidget);
+      expect(find.textContaining('KEY POINTS'), findsOneWidget);
+      expect(find.textContaining('EXTRA SECTION'), findsOneWidget);
+      expect(find.textContaining('EXAMPLE'), findsOneWidget);
+      expect(find.textContaining('SUMMARY'), findsOneWidget);
+      expect(find.textContaining('Apple ek technology company hai.'),
+          findsOneWidget);
       expect(find.text('dart'), findsOneWidget);
       expect(find.textContaining('Hello Apple'), findsOneWidget);
+      expect(
+        find.byKey(const ValueKey('student-tutor-card-direct-answer')),
+        findsNothing,
+      );
     },
   );
 
   testWidgets(
-    'streaming student tutor notes keep the same section card layout',
+    'streaming emoji numbered sections stay on the standard markdown path',
     (tester) async {
       const tutorReply = '''
 🎯 1. DIRECT ANSWER
@@ -681,20 +663,20 @@ Apple ek badi tech company hai.
       await tester.pump();
       await tester.pump(const Duration(milliseconds: 250));
 
+      expect(find.textContaining('DIRECT ANSWER'), findsOneWidget);
+      expect(find.textContaining('SUMMARY'), findsOneWidget);
+      expect(find.textContaining('Apple ek technology company hai.'),
+          findsOneWidget);
+      expect(find.byType(CodePanel), findsOneWidget);
       expect(
         find.byKey(const ValueKey('student-tutor-card-direct-answer')),
-        findsOneWidget,
+        findsNothing,
       );
-      expect(
-        find.byKey(const ValueKey('student-tutor-card-summary')),
-        findsOneWidget,
-      );
-      expect(find.byType(CodePanel), findsOneWidget);
     },
   );
 
   testWidgets(
-    'student tutor cards follow theme colors when chat color mode is theme',
+    'theme color mode keeps sectioned replies on the standard markdown path',
     (tester) async {
       const tutorReply = '''
 🎯 1. DIRECT ANSWER
@@ -744,28 +726,19 @@ Apple ek badi tech company hai.
       );
       await tester.pumpAndSettle();
 
-      final title = tester.widget<Text>(find.text('Direct Answer'));
-      final card = tester.widget<Container>(
+      expect(find.textContaining('DIRECT ANSWER'), findsOneWidget);
+      expect(find.textContaining('SUMMARY'), findsOneWidget);
+      expect(find.textContaining('Apple ek technology company hai.'),
+          findsOneWidget);
+      expect(
         find.byKey(const ValueKey('student-tutor-card-direct-answer')),
+        findsNothing,
       );
-      final cardDecoration = card.decoration! as BoxDecoration;
-      final titleContext = tester.element(find.text('Direct Answer'));
-      final tokens = AppThemeTokens.of(titleContext);
-      final expectedAccent = Color.lerp(
-        tokens.accent,
-        tokens.foreground,
-        0.08,
-      );
-
-      expect(title.style?.color, expectedAccent);
-      expect(title.style?.color, isNot(const Color(0xFF2563EB)));
-      expect(cardDecoration.border, isNotNull);
-      expect(cardDecoration.color, isNotNull);
     },
   );
 
   testWidgets(
-    'non tutor assistant markdown keeps the existing rendering path',
+    'plain assistant markdown keeps the existing rendering path',
     (tester) async {
       await tester.pumpWidget(
         MaterialApp(

@@ -1039,7 +1039,7 @@ class SettingsSystemPromptSection extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               const Text(
-                'Choose a tone or add your own reusable system instruction.',
+                'Your custom instruction is merged with strict core output rules so every provider gets the same formatting contract.',
                 style: TextStyle(height: 1.45),
               ),
               const SizedBox(height: 14),
@@ -1050,22 +1050,22 @@ class SettingsSystemPromptSection extends StatelessWidget {
                   _PromptTemplateChip(
                     label: 'Coding Assistant',
                     onTap: () => systemPromptController.text =
-                        'You are a senior coding assistant. Be concise, accurate, and implementation-focused.',
+                        'You are a senior coding assistant. Focus on correct implementation, crisp reasoning, and practical code changes.',
                   ),
                   _PromptTemplateChip(
                     label: 'Research Analyst',
                     onTap: () => systemPromptController.text =
-                        'You are a research analyst. Structure answers clearly and highlight tradeoffs.',
+                        'You are a research analyst. Structure answers clearly, highlight tradeoffs, and separate facts from suggestions.',
                   ),
                   _PromptTemplateChip(
                     label: 'Concise Mode',
                     onTap: () => systemPromptController.text =
-                        'Keep responses short, direct, and high-signal.',
+                        'Keep responses short, direct, and high-signal. Prefer bullets over long paragraphs.',
                   ),
                   _PromptTemplateChip(
                     label: 'Vision Helper',
                     onTap: () => systemPromptController.text =
-                        'You are an AI assistant specialized in image and multimodal reasoning.',
+                        'You are an AI assistant specialized in image and multimodal reasoning. Describe visible details carefully and state uncertainty clearly.',
                   ),
                 ],
               ),
@@ -1075,7 +1075,8 @@ class SettingsSystemPromptSection extends StatelessWidget {
                 minLines: 6,
                 maxLines: 10,
                 decoration: const InputDecoration(
-                  hintText: 'Add a system prompt for every request',
+                  hintText:
+                      'Add reusable behavior. Core markdown, math, and style rules are applied automatically.',
                 ),
               ),
               const SizedBox(height: 12),

@@ -1,4 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
+import 'package:gidar_ai_flutter/src/core/models/app_descriptors.dart';
 import 'package:gidar_ai_flutter/src/core/models/app_models.dart';
 import 'package:gidar_ai_flutter/src/data/remote/gemini_remote_data_source.dart';
 import 'package:gidar_ai_flutter/src/data/remote/groq_remote_data_source.dart';
@@ -71,7 +72,10 @@ void main() {
 
     expect(chunks.join(), 'All good');
     expect(capturedModel.id, selectedModel.id);
-    expect(capturedSystemPrompt, 'Stay concise.');
+    expect(
+      capturedSystemPrompt,
+      buildEffectiveSystemPrompt('Stay concise.'),
+    );
     expect(capturedHistory.single.promptText, 'Please review the attachment');
     expect(capturedHistory.single.attachments, hasLength(1));
     expect(capturedHistory.single.attachments.single.mediaType, 'image/png');

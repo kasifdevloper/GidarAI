@@ -32,7 +32,10 @@ void main() {
         }) {
           expect(apiKey, 'z-key');
           expect(model.provider, AiProviderType.zAi);
-          expect(systemPrompt, 'Vision system prompt');
+          expect(
+            systemPrompt,
+            buildEffectiveSystemPrompt('Vision system prompt'),
+          );
           expect(history.single.promptText, 'What is in this image?');
           expect(history.single.attachments, hasLength(1));
           expect(history.single.attachments.single.inlineDataBase64, 'abc123');
@@ -487,7 +490,7 @@ void main() {
     final selectedModel = SettingsRepository.builtInModels.first;
 
     const customPrompt =
-        'You are a sharp tutor. Use short Hinglish explanations with clear steps.';
+        'You are a sharp assistant. Use short Hinglish explanations with clear steps.';
 
     await controller.saveSettings(
       apiKey: '',

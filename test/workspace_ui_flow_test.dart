@@ -292,7 +292,7 @@ void main() {
     );
   });
 
-  testWidgets('system prompt settings keeps core presets without tutor chip',
+  testWidgets('system prompt settings keeps core presets clean',
       (tester) async {
     tester.view.physicalSize = const Size(430, 932);
     tester.view.devicePixelRatio = 1.0;
