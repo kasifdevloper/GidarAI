@@ -160,7 +160,7 @@ void main() {
         packageInfoLoader: () async => PackageInfo(
           appName: 'Gidar AI',
           packageName: 'com.example.gidar',
-          version: '2.0.0',
+          version: '1.0.0',
           buildNumber: '1',
           buildSignature: '',
           installerStore: null,
@@ -257,7 +257,7 @@ void main() {
       packageInfoLoader: () async => PackageInfo(
         appName: 'Gidar AI',
         packageName: 'com.example.gidar',
-        version: '2.0.0',
+        version: '1.0.0',
         buildNumber: '1',
         buildSignature: '',
         installerStore: null,
@@ -537,7 +537,7 @@ AppController _buildController({
     packageInfoLoader: () async => PackageInfo(
       appName: 'Gidar AI',
       packageName: 'com.example.gidar',
-      version: '2.0.0',
+      version: '1.0.0',
       buildNumber: '1',
       buildSignature: '',
       installerStore: null,

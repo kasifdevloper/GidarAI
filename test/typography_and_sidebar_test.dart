@@ -897,7 +897,7 @@ Apple ek badi tech company hai.
       packageInfoLoader: () async => PackageInfo(
         appName: 'Gidar AI',
         packageName: 'com.example.gidar',
-        version: '2.0.0',
+        version: '1.0.0',
         buildNumber: '1',
         buildSignature: '',
         installerStore: null,
@@ -1000,7 +1000,7 @@ Apple ek badi tech company hai.
       packageInfoLoader: () async => PackageInfo(
         appName: 'Gidar AI',
         packageName: 'com.example.gidar',
-        version: '2.0.0',
+        version: '1.0.0',
         buildNumber: '1',
         buildSignature: '',
         installerStore: null,
@@ -1114,7 +1114,7 @@ Apple ek badi tech company hai.
       packageInfoLoader: () async => PackageInfo(
         appName: 'Gidar AI',
         packageName: 'com.example.gidar',
-        version: '2.0.0',
+        version: '1.0.0',
         buildNumber: '1',
         buildSignature: '',
         installerStore: null,
@@ -1241,7 +1241,7 @@ Apple ek badi tech company hai.
       packageInfoLoader: () async => PackageInfo(
         appName: 'Gidar AI',
         packageName: 'com.example.gidar',
-        version: '2.0.0',
+        version: '1.0.0',
         buildNumber: '1',
         buildSignature: '',
         installerStore: null,

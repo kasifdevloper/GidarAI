@@ -1,7 +1,7 @@
 name: gidar_ai_flutter
 description: Gidar AI rebuilt in Flutter with polished UI, persistent chats, and OpenRouter streaming.
 publish_to: "none"
-version: 2.0.0+1
+version: 1.0.0+1
 
 environment:
   sdk: ">=3.4.0 <4.0.0"

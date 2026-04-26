@@ -7,8 +7,8 @@ import 'package:gidar_ai_flutter/src/core/models/app_descriptors.dart';
 
 void main() {
   test('formatAppVersionLabel keeps version and build aligned', () {
-    expect(formatAppVersionLabel('2.0.0', '1'), 'v2.0.0+1');
-    expect(formatAppVersionLabel('2.0.0', ''), 'v2.0.0');
+    expect(formatAppVersionLabel('1.0.0', '1'), 'v1.0.0+1');
+    expect(formatAppVersionLabel('1.0.0', ''), 'v1.0.0');
   });
 
   testWidgets('app boots into Gidar AI shell', (WidgetTester tester) async {

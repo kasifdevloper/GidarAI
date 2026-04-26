@@ -135,7 +135,7 @@ class AppController extends ChangeNotifier {
     'Summarize this text into crisp action items.',
   ];
 
-  String _appVersion = '2.0.0';
+  String _appVersion = '1.0.0';
   String _appBuildNumber = '1';
   AppPreferencesState _preferences = AppPreferencesState.initial();
   bool _isReady = false;

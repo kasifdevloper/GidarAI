@@ -1301,6 +1301,7 @@ class SettingsAboutSection extends StatelessWidget {
   static const _developerName = 'Kasif';
   static const _feedbackEmail = 'kasifdevloper@gmail.com';
   static const _licenseName = 'Apache License 2.0';
+  static const _releaseName = 'First version';
 
   @override
   Widget build(BuildContext context) {
@@ -1352,6 +1353,11 @@ class SettingsAboutSection extends StatelessWidget {
               _AboutMetaRow(
                 label: 'Version',
                 value: vm.appVersionLabel,
+              ),
+              const SizedBox(height: 8),
+              _AboutMetaRow(
+                label: 'Release',
+                value: _releaseName,
               ),
               const SizedBox(height: 8),
               _AboutMetaRow(
