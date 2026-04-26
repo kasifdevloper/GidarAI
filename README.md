@@ -42,33 +42,33 @@ Gidar AI is designed for users who want one place to chat with AI models, switch
 
 ### Promo Samples
 
-![Download promo](assets/screenshots/promo-download-post.png)
+<p align="center">
+  <img src="assets/screenshots/promo-download-post.png" alt="Download promo" width="260" />
+  <img src="assets/screenshots/promo-multi-provider-post.png" alt="Multi-provider promo" width="260" />
+</p>
 
-![Multi-provider promo](assets/screenshots/promo-multi-provider-post.png)
-
-![Facebook cover](assets/screenshots/promo-facebook-cover.png)
+<p align="center">
+  <img src="assets/screenshots/promo-facebook-cover.png" alt="Facebook cover" width="720" />
+</p>
 
 ### Story Samples
 
-![Story sample 1](assets/screenshots/story-sample-01.png)
-
-![Story sample 2](assets/screenshots/story-sample-02.png)
-
-![Story sample 3](assets/screenshots/story-sample-03.png)
-
-![Story sample 4](assets/screenshots/story-sample-04.png)
-
-![Story sample 5](assets/screenshots/story-sample-05.png)
-
-![Story sample 6](assets/screenshots/story-sample-06.png)
-
-![Story sample 7](assets/screenshots/story-sample-07.png)
-
-![Story sample 8](assets/screenshots/story-sample-08.png)
-
-![Story sample 9](assets/screenshots/story-sample-09.png)
-
-![Story sample 10](assets/screenshots/story-sample-10.png)
+<table>
+  <tr>
+    <td align="center"><img src="assets/screenshots/story-sample-01.png" alt="Story sample 1" width="170" /><br />Story 1</td>
+    <td align="center"><img src="assets/screenshots/story-sample-02.png" alt="Story sample 2" width="170" /><br />Story 2</td>
+    <td align="center"><img src="assets/screenshots/story-sample-03.png" alt="Story sample 3" width="170" /><br />Story 3</td>
+    <td align="center"><img src="assets/screenshots/story-sample-04.png" alt="Story sample 4" width="170" /><br />Story 4</td>
+    <td align="center"><img src="assets/screenshots/story-sample-05.png" alt="Story sample 5" width="170" /><br />Story 5</td>
+  </tr>
+  <tr>
+    <td align="center"><img src="assets/screenshots/story-sample-06.png" alt="Story sample 6" width="170" /><br />Story 6</td>
+    <td align="center"><img src="assets/screenshots/story-sample-07.png" alt="Story sample 7" width="170" /><br />Story 7</td>
+    <td align="center"><img src="assets/screenshots/story-sample-08.png" alt="Story sample 8" width="170" /><br />Story 8</td>
+    <td align="center"><img src="assets/screenshots/story-sample-09.png" alt="Story sample 9" width="170" /><br />Story 9</td>
+    <td align="center"><img src="assets/screenshots/story-sample-10.png" alt="Story sample 10" width="170" /><br />Story 10</td>
+  </tr>
+</table>
 
 ## Setup
 
