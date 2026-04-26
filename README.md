@@ -1,10 +1,15 @@
 # Gidar AI
 
-Gidar AI is an open-source Flutter AI workspace focused on fast mobile and desktop chat workflows. It brings together multi-provider model access, streaming responses, chat history, code and HTML preview tools, export features, and provider-aware settings in one app.
+Gidar AI is an open-source Flutter AI chat app and AI workspace built for Android, desktop, and cross-platform workflows. It combines multi-provider LLM access, streaming chat, local history, code preview, HTML preview, export tools, and provider-aware settings in one place.
+
+Gidar AI supports OpenRouter, Groq, Gemini, Cerebras, Z.ai, Mistral, SambaNova, and custom OpenAI-compatible APIs, making it useful for users searching for a Flutter AI assistant app, multi-provider AI chat app, or OpenAI-compatible chat client.
+
+**Download APK:** [GidarAI v1.0.0 release](https://github.com/kasifdevloper/GidarAI/releases/tag/v1.0.0)  
+**Repository:** [github.com/kasifdevloper/GidarAI](https://github.com/kasifdevloper/GidarAI)
 
 ## Summary
 
-Gidar AI is designed for users who want one place to chat with AI models, switch providers, test prompts, preview generated code or HTML, and keep local conversation history. The app supports a polished settings flow, attachment handling, model management, and export utilities so users can work with different AI backends without juggling multiple apps.
+Gidar AI is designed for users who want one place to chat with AI models, switch providers, compare responses, test prompts, preview generated code or HTML, and keep local conversation history. The app includes a polished settings flow, attachment handling, model management, and export utilities so users can work with different AI backends without juggling multiple apps.
 
 ## Main Features
 
