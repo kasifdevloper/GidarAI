@@ -35,7 +35,40 @@ Gidar AI is designed for users who want one place to chat with AI models, switch
 - `lib/src/data/` repositories, local storage, and remote data sources
 - `lib/src/core/` app models, controller, providers, services, and theme
 - `assets/` fonts, logos, and animation assets
+- `assets/screenshots/` app screenshots and promo samples
 - `test/` widget, repository, and integration-oriented tests
+
+## Screenshots
+
+### Promo Samples
+
+![Download promo](assets/screenshots/promo-download-post.png)
+
+![Multi-provider promo](assets/screenshots/promo-multi-provider-post.png)
+
+![Facebook cover](assets/screenshots/promo-facebook-cover.png)
+
+### Story Samples
+
+![Story sample 1](assets/screenshots/story-sample-01.png)
+
+![Story sample 2](assets/screenshots/story-sample-02.png)
+
+![Story sample 3](assets/screenshots/story-sample-03.png)
+
+![Story sample 4](assets/screenshots/story-sample-04.png)
+
+![Story sample 5](assets/screenshots/story-sample-05.png)
+
+![Story sample 6](assets/screenshots/story-sample-06.png)
+
+![Story sample 7](assets/screenshots/story-sample-07.png)
+
+![Story sample 8](assets/screenshots/story-sample-08.png)
+
+![Story sample 9](assets/screenshots/story-sample-09.png)
+
+![Story sample 10](assets/screenshots/story-sample-10.png)
 
 ## Setup
 
